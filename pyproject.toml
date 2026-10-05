@@ -1,0 +1,19 @@
+[project]
+name = "pons-volume-bot"
+version = "1.0.0"
+description = "Inventory-aware liquidity and volume bot for pons tokens on Robinhood Chain"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "keidev-sol", email = "" }
+]
+keywords = ["pons", "robinhood-chain", "uniswap-v3", "market-making", "volume-bot"]
+
+[project.urls]
+Homepage = "https://github.com/keidev-sol/pons-volume-bot"
+Repository = "https://github.com/keidev-sol/pons-volume-bot"
+Author = "https://github.com/keidev-sol"
+Telegram = "https://t.me/Kei4650"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
